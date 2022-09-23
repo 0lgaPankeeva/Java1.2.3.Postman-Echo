@@ -14,8 +14,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.testng:testng:7.1.0'
-    testImplementation 'io.rest-assured:rest-assured:4.3.0'
+
+    testImplementation 'io.rest-assured:rest-assured:5.2.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
 
 }
 

@@ -1,6 +1,7 @@
 package ru.netology.rest;
 
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
+
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -20,6 +21,7 @@ public class PostmanEchoTest {
                 .body("data", equalTo("14.09.2022"))
         ;
     }
+
 
     @Test
     void shouldPostPostman2() {
